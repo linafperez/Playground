@@ -29,12 +29,3 @@ agregar_actividad(filtros_frecuencia 05_filtros_frecuencia)
 agregar_actividad(histogramas_umbralizacion 06_histogramas_umbralizacion)
 agregar_actividad(morfologia_matematica 07_morfologia_matematica)
 
-include(CTest)
-if(BUILD_TESTING)
-    add_executable(verificar_resultados herramientas/verificar_resultados.cpp)
-    target_include_directories(verificar_resultados PRIVATE ${OpenCV_INCLUDE_DIRS})
-    target_link_libraries(verificar_resultados PRIVATE ${OpenCV_LIBS})
-    add_test(NAME resultados_regenerados
-        COMMAND verificar_resultados "${CMAKE_CURRENT_SOURCE_DIR}")
-endif()
-

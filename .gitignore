@@ -39,18 +39,14 @@
 .DS_Store
 Thumbs.db
 
-# Excluir resultados, pero conservar sus directorios con .gitkeep.
-**/resultados/**
-!**/resultados/**/
-!**/resultados/**/.gitkeep
+# Publicar solo las imagenes seleccionadas en la raiz de resultados/.
+# Las subcarpetas de procesamiento permanecen locales.
+**/resultados/*
+!**/resultados/*.png
+!**/resultados/*.jpg
+!**/resultados/*.jpeg
 
-# Figuras seleccionadas para los README.
-!**/figuras/
-!**/figuras/*.png
-!**/figuras/*.jpg
-!**/figuras/*.jpeg
-
-# Las entradas raw/ y sus .gitkeep se conservan.
+# Las imagenes originales de raw/ se conservan.
 
 
 # Compilacion
