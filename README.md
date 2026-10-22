@@ -1,6 +1,6 @@
 # Visión Artificial con OpenCV
 
-Siete prácticas de Visión Artificial con OpenCV en C++, acompañadas de comparaciones entre las imágenes originales y sus resultados.
+Resultados de las siete prácticas de Visión Artificial con OpenCV en C++
 
 | Actividad | Métodos |
 |---|---|
