@@ -1,0 +1,70 @@
+# Directorios de compilacion y configuracion local
+/build/
+/build-*/
+/cmake-build-*/
+/out/
+/.vs/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+/compile_commands.json
+/CMakeUserPresets.json
+
+# Binarios y archivos intermedios
+*.exe
+*.obj
+*.o
+*.a
+*.lib
+*.dll
+*.so
+*.so.*
+*.dylib
+*.pdb
+*.ilk
+*.exp
+*.idb
+*.pch
+*.tlog/
+*.lastbuildstate
+
+# Temporales
+*.tmp
+*.temp
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Excluir resultados, pero conservar sus directorios con .gitkeep.
+**/resultados/**
+!**/resultados/**/
+!**/resultados/**/.gitkeep
+
+# Figuras seleccionadas para los README.
+!**/figuras/
+!**/figuras/*.png
+!**/figuras/*.jpg
+!**/figuras/*.jpeg
+
+# Las entradas raw/ y sus .gitkeep se conservan.
+
+
+# Compilacion
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Ejecutables y objetos
+*.o
+*.a
+*.so
+*.exe
+
+# Archivos temporales
+.DS_Store
